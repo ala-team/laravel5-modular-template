@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f63edfb6aa14ff869d355fdbb5fb039b",
+    "hash": "5d7a4fbbfa9429330efaefcfb0e710d1",
     "packages": [
         {
             "name": "ala/laravel5-modular",
@@ -12,18 +12,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/leekeal/laravel5-modular.git",
-                "reference": "80d747d1732fcb76093b69554b58e6141525e89f"
+                "reference": "7f23834d1dd8444775612a307d84ee0fafac75d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leekeal/laravel5-modular/zipball/80d747d1732fcb76093b69554b58e6141525e89f",
-                "reference": "80d747d1732fcb76093b69554b58e6141525e89f",
+                "url": "https://api.github.com/repos/leekeal/laravel5-modular/zipball/7f23834d1dd8444775612a307d84ee0fafac75d0",
+                "reference": "7f23834d1dd8444775612a307d84ee0fafac75d0",
                 "shasum": ""
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -45,7 +45,7 @@
                     "email": "ttmk008@gmail.com"
                 }
             ],
-            "time": "2015-05-04 01:48:30"
+            "time": "2015-05-04 03:18:09"
         },
         {
             "name": "ala/laravel5-multi-auth",
@@ -858,126 +858,6 @@
                 "time"
             ],
             "time": "2015-03-26 03:05:57"
-        },
-        {
-            "name": "nette/mail",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/mail.git",
-                "reference": "c35b8a16d2fd3d4410b7f760e8ab260489510d29"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/mail/zipball/c35b8a16d2fd3d4410b7f760e8ab260489510d29",
-                "reference": "c35b8a16d2fd3d4410b7f760e8ab260489510d29",
-                "shasum": ""
-            },
-            "require": {
-                "ext-iconv": "*",
-                "nette/utils": "~2.2",
-                "php": ">=5.3.1"
-            },
-            "conflict": {
-                "nette/nette": "<2.2"
-            },
-            "require-dev": {
-                "nette/di": "~2.3",
-                "nette/tester": "~1.3"
-            },
-            "suggest": {
-                "ext-fileinfo": "to detect type of attached files"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "http://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "http://nette.org/contributors"
-                }
-            ],
-            "description": "Nette Mail: Sending E-mails",
-            "homepage": "http://nette.org",
-            "time": "2015-04-23 09:43:53"
-        },
-        {
-            "name": "nette/utils",
-            "version": "v2.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/utils.git",
-                "reference": "cda96ff718e7bad5e949527dbfa1d6d0498181d9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/cda96ff718e7bad5e949527dbfa1d6d0498181d9",
-                "reference": "cda96ff718e7bad5e949527dbfa1d6d0498181d9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.1"
-            },
-            "conflict": {
-                "nette/nette": "<2.2"
-            },
-            "require-dev": {
-                "nette/tester": "~1.0"
-            },
-            "suggest": {
-                "ext-gd": "to use Image",
-                "ext-iconv": "to use Strings::webalize() and toAscii()",
-                "ext-intl": "for script transliteration in Strings::webalize() and toAscii()",
-                "ext-mbstring": "to use Strings::lower() etc..."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "http://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "http://nette.org/contributors"
-                }
-            ],
-            "description": "Nette Utility Classes",
-            "homepage": "http://nette.org",
-            "time": "2015-03-17 21:49:28"
         },
         {
             "name": "nikic/php-parser",
@@ -3023,7 +2903,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "nette/mail": 20,
         "ala/laravel5-multi-auth": 20,
         "ala/laravel5-modular": 20
     },

@@ -6,7 +6,6 @@
 	"type": "project",
 	"require": {
 		"laravel/framework": "5.0.*",
-		"nette/mail": "2.3.*@dev",
 		"ala/laravel5-multi-auth": "dev-master",
 		"ala/laravel5-modular": "dev-master"
 	},
